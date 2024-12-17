@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style:italic;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #01022d, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    height: 90%;
+    background-image: linear-gradient(to right, #01022dab 30%, #000000),
+                        url(avatar.webp);
+    padding: 1%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.container:hover {
+    background-image: linear-gradient(to right, #01022dab 30%, transparent),
+                        url(avatar.webp);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.logo:hover {
+    font-size: 35px;
+    transition: .5s;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+}
+
+ul a:hover{
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.content {
+    width: 100%;
+    margin-top: 10%;
+    color: aliceblue;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.content h2 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+p {
+    width: 500px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    color:aliceblue;
+    border-color: white
+}
+
+
+
+
